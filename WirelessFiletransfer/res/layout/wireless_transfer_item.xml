@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView android:id="@+id/transfer_icon"
+        android:layout_width="@android:dimen/app_icon_size"
+        android:layout_height="@android:dimen/app_icon_size"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:contentDescription ="@string/wireless_map_email_settings_app_icon"
+        android:scaleType="center"
+    />
+
+    <TextView android:id="@+id/transfer_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@id/transfer_icon"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+    />
+
+    <TextView android:id="@+id/targetdevice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/transfer_icon"
+        android:layout_below="@id/transfer_title"
+        android:maxLines="1"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+    />
+
+    <TextView android:id="@+id/complete_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_below="@id/targetdevice"
+        android:layout_alignParentEnd="true"
+
+    />
+
+    <TextView android:id="@+id/complete_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/targetdevice"
+        android:layout_toEndOf="@id/transfer_icon"
+        android:layout_toStartOf="@id/complete_date"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textDirection="locale" 
+    />
+</RelativeLayout>

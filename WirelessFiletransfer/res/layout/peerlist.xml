@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/beautiful"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" >
+
+    <com.huaqin.wirelessfiletransfer.ui.RotateImageView
+        android:id="@+id/rotate_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:src="@drawable/search_rader_scan" />
+
+    <com.huaqin.wirelessfiletransfer.ui.PeerListBackgroundView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+    <com.huaqin.wirelessfiletransfer.ui.PeerListView
+        android:id="@+id/peerlist"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <ImageView
+            android:id="@+id/btn_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:src="@android:drawable/ic_menu_search"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+</FrameLayout>

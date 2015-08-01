@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">Smart Share</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="search">Searching....</string>
+    <string name="search_again">Searching....</string>
+    <string name="startservice">StartService</string>
+    <string name="stopservice">StopService</string>
+    <string name="running">is running!</string>
+    <string name="connecting">Connecting</string>
+    <string name="connectfail">Connect fail!</string>
+    <string name="click_send">Building Connection....Please Wait!</string>
+    <string name="click_send_limit">Building Connection....Please retry 15s later. </string>
+    <string name="click_search_limit">Searching....Please retry 10s later. </string>
+    <string name="service_running">Smart Share is running!</string>
+    <string name="service_not_running">Smart Share is not running!</string>
+    <string name="restart_service">Touch to try to make you visible </string>
+    <string name="receiving_files">Smart Share:Receiving files....</string>
+    <string name="received_files">Smart Share:Received files</string>
+    <string name="sending_files">Smart Share:Sending files....</string>
+    <string name="sent_files">Smart Share:Sent files</string>
+    <string name="connectexception">Please make sure the receiver\'s Smart Share is running!</string>
+    <string name="socketexception_econnresst"> Connection reset by peer</string>
+    <string name="socketexception_epipe">Broken pipe</string>
+    <string name="socketexception">Filetransfer is unsuccessful! Please retry. </string>
+    <string name="nospaceexception">No space left on device </string>
+    <string name="tranferexception">Some transfer exceptions occur,Please retry. </string>
+    <string name="exceptiontitle">Exception occurs!</string>
+    <string name="incoming_file_confirm_title">Smart Share</string>
+    <string name="incoming_file_confirm_content">Accept incoming file? </string>
+    <string name="incoming_file_confirm_cancel">Decline</string>
+    <string name="incoming_file_confirm_ok">Accept</string>
+    <string name="incoming_line1">From</string>
+    <string name="incoming_line2">Filename</string>
+    <string name="incoming_line3">Size</string>
+    <string name="no_transfers">Smart Share history is empty.</string>
+    <string name="wireless_map_email_settings_app_icon">Application Icon</string>
+    <string name="not_exist_file">No file</string>
+    <string name="not_exist_file_desc">The file doesn\'t exist. \n</string>
+    <string name="unknown_file">Unknown file</string>
+    <string name="unknown_file_desc">There\'s no app to handle this type of file. \n</string>
+    <string name="download_success">Received complete.</string>
+    <string name="upload_success">Sent complete.</string>
+    <string name="inbound_history_title">Smart Share Inbound</string>
+    <string name="outbound_history_title">Smart Share Outbound</string>
+    <string name="transfer_menu_clear_all">Clear list</string>
+    <string name="transfer_menu_open">Open</string>
+    <string name="transfer_menu_clear">Clear from list</string>
+    <string name="transfer_clear_dlg_title">Clear</string>
+    <string name="transfer_clear_dlg_msg">All items will be cleared from the list.</string>
+    <string name="noti_caption"><xliff:g id="successful_number">%1$s</xliff:g>         successful.</string>
+    <string name="notice_send_file">Who do you want to send the file to</string>
+    <string name="notice_refused"><xliff:g id="receivename">%s</xliff:g>   refused your request.</string>
+    <string name="loading">Loading. Please wait...</string>
+    <string name="wirelesstransfer_share_file_name" translatable="false">smart_share_content_share</string>
+    <string name="transfering">Smart Share:File Transfering</string>
+    <string name="transfering_process">Touch to show transfer process</string>
+
+</resources>
