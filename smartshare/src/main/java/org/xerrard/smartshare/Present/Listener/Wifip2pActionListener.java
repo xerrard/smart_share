@@ -36,13 +36,4 @@ public class Wifip2pActionListener extends AbsWifip2pActionListener {
             log.debug("%s success", actionName);
         }
     }
-
-    @Override
-    public void onException(Throwable t) {
-        if (log != null) {
-            String msg = String.format("%s fail.", actionName);
-
-            log.err(msg);
-        }
-    }
 }

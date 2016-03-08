@@ -7,7 +7,7 @@ import org.xerrard.smartshare.Present.Wifip2pSolutionProvider;
 /**
  * wifip2p的每一种操作都是异步操作，而操作是否成功就是看这个actionlistener
  */
-public abstract class AbsWifip2pActionListener implements ActionListener,IfWifip2pListener {
+public abstract class AbsWifip2pActionListener implements ActionListener{
 
     protected String actionName;
     protected Wifip2pSolutionProvider owner;
